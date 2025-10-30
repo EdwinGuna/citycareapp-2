@@ -9,6 +9,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: 'https://edwinguna.github.io/citycareapp-2/sw.js',
   },
   module: {
     rules: [
