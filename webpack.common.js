@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     publicPath: 'https://edwinguna.github.io/citycareapp-2/sw.js',
   },
   module: {
