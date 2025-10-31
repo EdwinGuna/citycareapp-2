@@ -4,6 +4,7 @@ const { merge } = require('webpack-merge');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { InjectManifest } = require('workbox-webpack-plugin');
+const PUBLIC_PATH = process.env.PUBLIC_PATH || '/';
 
 module.exports = merge(common, {
   mode: 'production',
